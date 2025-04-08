@@ -1,6 +1,6 @@
 # Alicja
 
-![Alicja](https://i.imgur.com/7glzVst.png)
+![Alicja](https://i.imgur.com/1lJtU72.png)
 
 *Yet another clone of Alice/Arisu/Adelheid.*
 
