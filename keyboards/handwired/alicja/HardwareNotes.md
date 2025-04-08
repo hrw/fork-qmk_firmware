@@ -13,6 +13,7 @@ mechwild/sugarglider: 4 encodery
 
 
 | Pin | Value   | Connected       | Pin | Value  | Connected       |
+|  -  |    -    |      -          |  -  |   -    |        -        |
 |  1  | GPIO0   | Column  0       | 21  | 5V     |                 |
 |  2  | GPIO1   | Column  1       | 22  | 5V     |                 |
 |  3  | GPIO2   | Column  2       | 23  | GND    |                 |
