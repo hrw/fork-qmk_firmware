@@ -23,7 +23,7 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
             ENCODER_CCW_CW(MS_WHLU, MS_WHLD), // slow scrolling
     },
     [1] = {
-            ENCODER_CCW_CW(KC_MPRV, KC_MNXT), // Next/Prev song
+            ENCODER_CCW_CW(KC_MNXT, KC_MPRV), // Next/Prev song
             ENCODER_CCW_CW(KC_PGUP, KC_PGDN), // fast scrolling
     }
 };
