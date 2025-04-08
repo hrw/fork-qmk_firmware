@@ -1,4 +1,6 @@
 // Copyright 2023 QMK
+// Copyright 2025 Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
+//
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #ifdef CONSOLE_ENABLE
