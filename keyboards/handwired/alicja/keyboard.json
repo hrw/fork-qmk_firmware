@@ -7,6 +7,7 @@
     "features": {
         "bootmagic": true,
         "caps_word": true,
+        "encoder": true,
         "extrakey": true,
         "nkro": true
     },
@@ -20,6 +21,12 @@
         "device_version": "0.0.2",
         "pid": "0xAD78",
         "vid": "0xF100"
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP29", "pin_b": "GP28"},
+            {"pin_a": "GP26", "pin_b": "GP27"}
+        ]
     },
     "layouts": {
         "LAYOUT": {
@@ -105,7 +112,10 @@
                 {"label": "RALT", "matrix": [5, 9], "x": 12, "y": 5.25, "w": 1.5},
                 {"label": "LEFT", "matrix": [5, 13], "x": 16.5, "y": 5.25},
                 {"label": "DOWN", "matrix": [5, 14], "x": 17.5, "y": 5.25},
-                {"label": "RHT", "matrix": [5, 15], "x": 18.5, "y": 5.25}
+                {"label": "RHT", "matrix": [5, 15], "x": 18.5, "y": 5.25},
+
+                {"label": "ENC1_BTN", "matrix": [4, 12], "x": 20, "y": 0},
+                {"label": "ENC2_BTN", "matrix": [5, 12], "x": 20, "y": 1.25}
             ]
         }
     }

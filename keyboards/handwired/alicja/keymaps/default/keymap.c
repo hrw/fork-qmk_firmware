@@ -13,3 +13,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 #endif
     return true;
 }
+
+#ifdef ENCODER_MAP_ENABLE
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
+    [0] = {
+            ENCODER_CCW_CW(KC_VOLU, KC_VOLD), // Volume control (Mute on press)
+            ENCODER_CCW_CW(MS_WHLU, MS_WHLD), // slow scrolling
+    },
+    [1] = {
+            ENCODER_CCW_CW(KC_MPRV, KC_MNXT), // Next/Prev song
+            ENCODER_CCW_CW(KC_PGUP, KC_PGDN), // fast scrolling
+    }
+};
+#endif
