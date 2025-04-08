@@ -9,6 +9,7 @@
         "caps_word": true,
         "encoder": true,
         "extrakey": true,
+        "mousekey": true,
         "nkro": true
     },
     "matrix_pins": {
