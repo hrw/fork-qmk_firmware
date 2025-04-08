@@ -1,0 +1,1 @@
+/home/marcin/devel/devices/klawiatury/keyboards/alicja/HardwareNotes.md
