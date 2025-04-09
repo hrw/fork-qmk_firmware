@@ -28,3 +28,10 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     }
 };
 #endif
+
+const uint16_t PROGMEM combo_super_left[]  = {KC_LGUI, KC_LEFT, COMBO_END};
+const uint16_t PROGMEM combo_super_right[] = {KC_LGUI, KC_RIGHT, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(combo_super_left,  LGUI(KC_KP_4)),
+    COMBO(combo_super_right, LGUI(KC_KP_6)),
+};
